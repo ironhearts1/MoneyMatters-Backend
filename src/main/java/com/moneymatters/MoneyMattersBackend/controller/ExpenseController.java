@@ -16,7 +16,8 @@ import java.nio.file.Path;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin
+
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping(path = "api/v1")
 public class ExpenseController {
@@ -24,12 +25,15 @@ public class ExpenseController {
     private final UserService userService;
     private final UserRepository userRepository;
 
+
     @Autowired
     public ExpenseController(UserService userService, ExpenseService expenseService, UserRepository userRepository) {
         this.userService = userService;
         this.expenseService = expenseService;
         this.userRepository = userRepository;
     }
+
+
     @GetMapping("/")
     public List<User> getAllUsers(){
         return userService.getAllUsers();
