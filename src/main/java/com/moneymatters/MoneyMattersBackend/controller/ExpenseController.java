@@ -20,6 +20,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path = "api/v1")
+@CrossOrigin
 public class ExpenseController {
     private final ExpenseService expenseService;
     private final UserService userService;
