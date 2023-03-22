@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://containers-us-west-85.railway.app:6508/railway
+    username: postgres
+    password: If9mUVMhVim4ua1XoXCB
+    name: MoneyMatters
+
+#  sql:
+#    init:
+#      mode: always # you won't do this in prod, I'm just doing this for demo purposes
