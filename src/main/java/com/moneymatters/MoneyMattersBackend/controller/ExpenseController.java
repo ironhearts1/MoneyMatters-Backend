@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Optional;
 
 
-@CrossOrigin(origins = "*")
+
 @RestController
 @RequestMapping(path = "api/v1")
 public class ExpenseController {
