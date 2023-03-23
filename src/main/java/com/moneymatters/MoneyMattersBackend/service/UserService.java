@@ -89,6 +89,7 @@ public class UserService {
         List<Expense> newList = exList.stream().filter(e -> e.getId() != expenseId).collect(Collectors.toList());
         u.setExpenses(newList);
         userRepository.save(u);
+        expenseRepository.deleteById(expenseId);
         return ResponseEntity.ok(HttpStatus.OK);
     };
 
