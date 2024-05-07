@@ -1,11 +1,10 @@
 spring:
   datasource:
-    url: postgresql://postgres:abvmWGOYFKAINCMmJyELZhXCbFRxnvcZ@viaduct.proxy.rlwy.net:40977/railway
+    url: postgresql://postgres:VHmFnvFXhdFMTBJEjbcsokRZkFwirvmK@monorail.proxy.rlwy.net:33950/railway
     username: postgres
-    password: abvmWGOYFKAINCMmJyELZhXCbFRxnvcZ
-    host: viaduct.proxy.rlwy.net
-    port: 40977
+    password: VHmFnvFXhdFMTBJEjbcsokRZkFwirvmK
     name: railway
+
 
 #  sql:
 #    init:
