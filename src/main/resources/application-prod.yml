@@ -1,9 +1,11 @@
 spring:
   datasource:
-    url: jdbc:postgresql://containers-us-west-85.railway.app:6508/railway
+    url: postgresql://postgres:abvmWGOYFKAINCMmJyELZhXCbFRxnvcZ@viaduct.proxy.rlwy.net:40977/railway
     username: postgres
-    password: If9mUVMhVim4ua1XoXCB
-    name: MoneyMatters
+    password: abvmWGOYFKAINCMmJyELZhXCbFRxnvcZ
+    host: viaduct.proxy.rlwy.net
+    port: 40977
+    name: railway
 
 #  sql:
 #    init:
